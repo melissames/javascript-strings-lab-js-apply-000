@@ -1,6 +1,8 @@
 var greeting = "Hello, everybody!";
 
-var specialGuest = "Hello, Neil deGrasse Tyson"
+function specialGuest (name){
+  return `Hello, ${name}`
+}
 
 var greetSpecialGuest = "" + specialGuest + "!";
 
